@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "warriors",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "className",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "strength",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "agility",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "magic",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/warrior.sol": "WarriorGuild"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/warrior.sol": {
+			"keccak256": "0x62b43efaa1b1e41ccd45f67a967be65a4699febf7db6972fab07bb9709503f72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d96696e9db27101e612c00da07e2f2e7b1d301043c0084666594bb01d436733",
+				"dweb:/ipfs/QmQ2AfgSTptSXuXS5FTrshUksTX7oMhDFiXcRETsbUGSPo"
+			]
+		}
+	},
+	"version": 1
+}
